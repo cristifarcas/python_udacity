@@ -1,0 +1,74 @@
+#-*-coding:utf8;-*-
+#qpy:3
+#qpy:console
+
+print("This is console module")
+#-*-coding:utf8;-*-
+#qpy:3
+#qpy:console
+
+print("This is console module")
+
+# variable variables
+
+variable = hours
+variable = hours + 1
+variable = hours2 + 1
+...
+
+sting_name = 'HTML'
+link = 'url'
+
+#concatenated strings
+print (start_link + link)
+
+#indexed strings
+
+print string_name[0:]
+
+print string_name[:-2]
+
+#selecting sub-sequences
+
+<string>[<integer>:<integer>]
+
+--------------
+
+#"the find function"
+
+print string.find("string2",0:)
+
+
+---------------------
+
+
+
+# page = contents of a web page
+page =('<div id="top_bin"><div id="top_content" class="width960">'
+'<div class="udacity float-left"><a href="http://udacity.com">')
+
+page =('<div id="top_bin"><div id="top_content" class="width960">'
+'<div class="udacity float-left"><a href="http://udacity.com">')
+
+start_link = page.find('<a href=')
+start_url = 'http:'
+tag_close = '">'
+
+
+print page[start_url:tag_close]
+#Traceback (most recent call last):
+
+File "vm_main.py", line 33, in
+import main
+File "/tmp/vmuser_qnyfwkolay/main.py", line 21, in
+print page['http':'">']
+TypeError: slice indices must be integers or None or have an index method
+
+-------
+
+page =('<div id="top_bin"><div id="top_content" class="width960">'
+'<div class="udacity float-left"><a href="http://udacity.com">')
+
+start_link = page.find('<a href=')
+
+print (edited)
